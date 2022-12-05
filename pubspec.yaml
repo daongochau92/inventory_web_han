@@ -1,0 +1,38 @@
+name: inventory_web
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  get: ^4.3.8
+  excel: ^1.1.5
+  file_picker: ^4.1.1
+  firebase_core: ^1.6.0
+  cloud_firestore: ^2.5.3
+  data_tables: ^1.0.3
+  path_provider: ^2.0.5
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+dependency_overrides:
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/file.xlsx
+    - assets/base.xlsx
